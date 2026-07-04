@@ -1,0 +1,21 @@
+@Iys.Api_HostAddress = http://localhost:5231
+
+GET {{Iys.Api_HostAddress}}/api/catalog/items
+Accept: application/json
+
+###
+
+GET {{Iys.Api_HostAddress}}/api/inventory/stock-movements
+Accept: application/json
+
+###
+
+GET {{Iys.Api_HostAddress}}/api/reporting/dashboard
+Accept: application/json
+
+###
+
+GET {{Iys.Api_HostAddress}}/api/ai/capabilities
+Accept: application/json
+
+###
