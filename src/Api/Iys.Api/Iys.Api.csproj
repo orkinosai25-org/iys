@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.28" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\Iys.SharedKernel\Iys.SharedKernel.csproj" />
+    <ProjectReference Include="..\..\Modules\Catalog\Iys.Modules.Catalog\Iys.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\..\Modules\Inventory\Iys.Modules.Inventory\Iys.Modules.Inventory.csproj" />
+    <ProjectReference Include="..\..\Modules\Purchasing\Iys.Modules.Purchasing\Iys.Modules.Purchasing.csproj" />
+    <ProjectReference Include="..\..\Modules\Reporting\Iys.Modules.Reporting\Iys.Modules.Reporting.csproj" />
+    <ProjectReference Include="..\..\Modules\Ai\Iys.Modules.Ai\Iys.Modules.Ai.csproj" />
+  </ItemGroup>
+
+</Project>
