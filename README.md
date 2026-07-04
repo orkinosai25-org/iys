@@ -104,7 +104,7 @@ dotnet build
 dotnet run --project /home/runner/work/iys/iys/src/Api/Iys.Api/Iys.Api.csproj
 ```
 
-Open Swagger at `http://localhost:5209/swagger` by default.
+Open Swagger at `http://localhost:5231/swagger` by default.
 
 ## Current API scaffold
 
